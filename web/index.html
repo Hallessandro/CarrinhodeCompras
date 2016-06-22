@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <form method="post" action="compras">
+            <input type="hidden" name="op" value="1">
+            <center><legend>Taverna Vovô 2000</legend></center>
+            <br>
+            <table style="width:80%" align="center">
+                <tr>
+                    <td><img src="img/cafe.jpg"></td>
+                    <td><img src="img/crocks.jpg"></td>
+                    <td><img src="img/calca.jpg"></td>
+                    <td><img src="img/calcao.jpg"></td>
+                </tr>
+                <tr>
+                    <td><h3>Pote de Mana</h3></td>
+                    <td><h3>Crocks de Combate - +40 Defesa</h3></td>
+                    <td><h3>Calça Setor II UFRN - +30 Defesa</h3></td>
+                    <td><h3>Calção da Força - +20 Força +50 Sedução</h3></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="produto" value="mana"> R$ 1.25</td>
+                    <td><input type="radio" name="produto" value="crocks"> R$ 20.00</td>
+                    <td><input type="radio" name="produto" value="calca"> R$ 25.00</td>
+                    <td><input type="radio" name="produto" value="calcao"> R$ 10.00</td>
+                </tr>
+                <tr>
+                    <td><img src="img/camisa.png"></td>
+                    <td><img src="img/escudo.jpg"></td>
+                    <td><img src="img/nescau.png"></td>
+                    <td><img src="img/oculos.png"></td>
+                </tr>
+                
+                <tr>
+                    <td><h3>Camisa Xavosa de Rico - +30 Defesa  +70 Ostentacao</h3></td>
+                    <td><h3>Escudo protetor - +100 Defesa</h3></td>
+                    <td><h3>Pote de Health</h3></td>
+                    <td><h3>Oculos Xavoso da Ray Ban - +20 Defesa  +40 Ostentacao +100 Serenidade</h3></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="produto" value="camisa"> R$ 100.00</td>
+                    <td><input type="radio" name="produto" value="escudo"> R$ 800.00</td>
+                    <td><input type="radio" name="produto" value="health"> R$ 2.00</td>
+                    <td><input type="radio" name="produto" value="oculos"> R$ 120.00</td>
+                </tr>
+            </table>
+            <br>
+            <center><input type="submit" value="Comprar" name="botaoCompra"></center>
+        </form>
+        
+        <form method="post" action="compras">
+            <input type="hidden" name="op" value="2"><br>
+            <center><input type="submit" value="Finalizar Compra"></center>
+        </form>
+    </body>
+</html>
